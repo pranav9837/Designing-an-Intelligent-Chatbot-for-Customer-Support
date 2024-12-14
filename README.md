@@ -23,13 +23,11 @@ Version Control: Git & GitHub
 Clone the Repository:
 
 bash
-Copy code
-git clone https://github.com/yourusername/intelligent-chatbot-support.git
+git clone https://github.com/pranav9837/Designing-an-Intelligent-Chatbot-for-Customer-Support
 cd intelligent-chatbot-support
 Install Dependencies:
 
 bash
-Copy code
 npm install           # For Node.js backend
 pip install -r requirements.txt  # For Python backend
 Set Up Environment Variables:
@@ -37,7 +35,6 @@ Set Up Environment Variables:
 Create a .env file and add your API keys and environment configurations:
 
 env
-Copy code
 AWS_ACCESS_KEY_ID=your-aws-key
 AWS_SECRET_ACCESS_KEY=your-aws-secret
 DATABASE_URL=your-database-url
@@ -45,14 +42,12 @@ Start the Application:
 
 For the frontend:
 
-bash
 Copy code
 cd frontend
 npm start
 For the backend:
 
 bash
-Copy code
 cd backend
 python app.py
 📊 Project Structure
